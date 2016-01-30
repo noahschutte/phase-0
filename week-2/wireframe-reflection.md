@@ -16,7 +16,8 @@ Even though I felt like I thought out all the details before drawing, I still en
 
 **What questions did you ask during this challenge? What resources did you find to help you answer them?**
 "What is the difference between a wireframe and a mockup?" 
-By asking google, I was able to find a graphic design forum that discussed the difference. A wireframe is exactly what we've discussed. It is often a pen and paper drawing of a layout. On the other hand, a mockup is often a detailed or even a pixel-perfect image of what the final image will look like.
+By asking google, I was able to find a [graphic design blog](http://graphicdesign.stackexchange.com/questions/30860/what-is-the-difference-between-wireframes-and-mockups) that discussed the difference. A wireframe is exactly what we've discussed. It is often a pen and paper drawing of a layout. On the other hand, a mockup is often a detailed or even a pixel-perfect image of what the final image will look like.
+
 
 **Which parts of the challenge did you enjoy and which parts did you find tedious?**
 I enjoyed thinking of new web sites to design and even started drawing some of them. I find the assignment submission process to be slightly tedious, but admit that it's very important to become comfortable with the version control workflow process with git.
