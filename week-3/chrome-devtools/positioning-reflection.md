@@ -3,10 +3,10 @@
 ![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version3.JPG)
 ![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version4.JPG)
 ![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version5.JPG)
-![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version6.JPG)
-![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version7.JPG)
-![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version8.JPG)
-![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version9.JPG)
+![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version6.png)
+![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version7.png)
+![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version8.png)
+![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version9.png)
 
 **How can you use Chrome's DevTools inspector to help you format or position elements?**
 
