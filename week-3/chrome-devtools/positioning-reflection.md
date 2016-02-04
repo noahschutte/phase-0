@@ -1,12 +1,12 @@
-<img src="imgs/Version1.jpg">
-<img src="imgs/Version2.jpg">
-<img src="imgs/Version3.jpg">
-<img src="imgs/Version4.jpg">
-<img src="imgs/Version5.jpg">
-<img src="imgs/Version6.jpg">
-<img src="imgs/Version7.jpg">
-<img src="imgs/Version8.jpg">
-<img src="imgs/Version9.jpg">
+![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version1.JPG)
+![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version2.JPG)
+![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version3.JPG)
+![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version4.JPG)
+![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version5.JPG)
+![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version6.JPG)
+![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version7.JPG)
+![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version8.JPG)
+![alt tag](https://github.com/noahschutte/phase-0/blob/master/week-3/chrome-devtools/imgs/Version9.JPG)
 
 **How can you use Chrome's DevTools inspector to help you format or position elements?**
 
