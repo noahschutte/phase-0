@@ -1,0 +1,13 @@
+echo The current directory is:
+pwd
+echo
+echo The contents of the directory are:
+ls
+echo
+echo The current date and time is:
+date
+echo
+echo -n "Please enter your name: "
+read name
+echo
+echo Hello $name, how are you?
