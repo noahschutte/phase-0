@@ -1,0 +1,44 @@
+header{
+   border:solid black 2px;
+   text-color: gray;
+   padding-bottom: 0px;
+}
+
+header h1{
+     background-color: blue;
+     margin-bottom: 0;
+     padding-top: 20px;
+     margin-top: 0;
+     display: inline-block;
+}
+
+header p{
+  background-color: gray;
+  padding-bottom: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer{
+  display:block;
+  clear:both;
+  background-color: gray;
+}
+
+.column-1{
+  float:left;
+  display:inline-block;
+  width: 50%;
+}
+
+.column-2{
+  float:right;
+  display:inline-block;
+  width:50%;
+}
+
+img{
+  width: 100px;
+  height:100px;
+  display: inline-block;
+}
