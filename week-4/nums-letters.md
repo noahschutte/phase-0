@@ -25,7 +25,7 @@ The mathematics of Ruby behave the same way as any 10 key calculator with ( + , 
 
 **What are strings? Why and when would you use them?**
 
-
+Strings are unique from an integer or float. They can be empty or a collection of characters, including letters, numbers, spaces, and special characters. 
 
 **What are local variables? Why and when would you use them?**
 
