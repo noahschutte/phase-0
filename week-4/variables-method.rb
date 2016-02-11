@@ -20,3 +20,8 @@
 
 **What was confusing about this material? What made sense?**
 
+
+
+https://github.com/noahschutte/phase-0/blob/master/week-4/address/my_solution.rb
+
+https://github.com/noahschutte/phase-0/blob/master/week-4/math/my_solution.rb
