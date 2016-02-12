@@ -17,4 +17,4 @@ def get_grade(average)
 	else average <60
 		return "F"
 	end
-end
+end 
