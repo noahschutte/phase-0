@@ -1,6 +1,6 @@
 # Smallest Integer
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [by myself].
 
 # smallest_integer is a method that takes an array of integers as its input
 # and returns the smallest integer in the array
@@ -12,11 +12,6 @@
 
 # Your Solution Below
 def smallest_integer(list_of_nums)
-  x = list_of_nums.length
-  if x == 0
-  	return nil
-  else x == 1
-  	return list_of_nums[0]
-  end
-  
+  return list_of_nums.sort[0]
 end
+
