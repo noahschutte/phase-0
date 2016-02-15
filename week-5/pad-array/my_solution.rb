@@ -2,7 +2,7 @@
 
 # I worked on this challenge [by with: Leo Kukhar]
 
-# I spent [] hours on this challenge.
+# I spent [1] hours on this challenge.
 
 
 # Complete each step below according to the challenge directions and
