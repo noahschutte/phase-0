@@ -12,5 +12,16 @@
 
 #Your Solution Below
 def shortest_string(list_of_words)
-  # Your code goes here!
+	if list_of_words.length == 0
+		return nil
+	end
+	i = list_of_words[0]
+	j = 1
+	while j <= list_of_words.length - 1 do
+		if i.length > list_of_words[j].length
+			i = list_of_words[j]
+		end
+		j = j + 1
+	end
+	return i
 end

@@ -12,12 +12,16 @@
 
 # Your Solution Below
 def largest_integer(list_of_nums)
-  x = list_of_nums.length
-  if x == 0
-  	return nil
-  end
-  if x == 1
-  	return list_of_nums[0]
-  end
-  if 
+	if list_of_nums.length == 0
+		return nil
+	end
+	i = list_of_nums[0]
+	j = 1
+	while j <= list_of_nums.length - 1 do
+		if i < list_of_nums[j]
+			i = list_of_nums[j]
+		end
+		j = j + 1
+	end
+	return i
 end
