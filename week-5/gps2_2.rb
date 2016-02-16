@@ -100,3 +100,31 @@ when "print"
 else
  puts "Sorry, that is not a valid command!!"
 end
+
+=begin
+**Reflection**
+**What did you learn about pseudocode from working on this challenge?**
+
+Use pseudocode. It is extremely helpful. It allows both partners to agree and understand the entire set of work that you plan to complete and how you plan to accomplish it. It also helps breakdown seemingly difficult tasks into more simple problems that are easily able to be completed. 
+
+**What are the tradeoffs of using Arrays and Hashes for this challenge?**
+
+I still find the syntax for arrays to be easier to use. It's simple to add and cal any element into/from an array. But there are serious limitations to using an array. Hashes are able to store values with each key, but create a more dynamic set of information that takes more knowledge of syntax. Hopefully I'll be more comfortable with those characters soon. 
+
+**What does a method return?**
+
+A method does not return anything unless specified. 
+
+**What kind of things can you pass into methods as arguments?**
+
+Anything. Arrays, hashes, variables, integers, floats, strings, booleans, and other stuff. 
+
+**How can you pass information between methods?**
+
+Use a call to another method. 
+
+**What concepts were solidified in this challenge, and what concepts are still confusing?**
+
+The use of a case for logic flow. And passing strings to a hash. 
+
+=end
