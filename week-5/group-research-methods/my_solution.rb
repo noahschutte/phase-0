@@ -14,8 +14,6 @@ def my_hash_finding_method(source, thing_to_find)
 source.select {|k,v| v==thing_to_find}.values
 end
 
-p my_hash_finding_method(my_family_pets_ages,3)
-
 # Identify and describe the Ruby method(s) you implemented.
 # .select
 ## Returns an array containing all elements of an enumerator for which the given block returns a true value.
