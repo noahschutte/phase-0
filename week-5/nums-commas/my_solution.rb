@@ -17,65 +17,28 @@
 
 # 1. Initial Solution
 
-=begin
 def separate_comma(num)
 	str = num.to_s
-	if str.length < 4
-		return str
-	end
-	if str.length < 5
-		return str[0] + "," + str[1..3]
-	end
-	if str.length < 6
-		return str[0..1] + "," + str[2..4]
-	end
-	if str.length < 7
-		return str[0..2] + "," + str[3..5]
-	end
-	if str.length < 8
-		return str[0] + "," + str[1..3] + "," + str[4..6]
-	end
-	if str.length < 9
-		return str[0..1] + "," + str[2..4] + "," + str[5..7]
-	end
+	return str if str.length < 4
+	return str[0] + "," + str[1..3] if str.length < 5
+	return str[0..1] + "," + str[2..4] if str.length < 6 
+	return str[0..2] + "," + str[3..5] if str.length < 7
+	return str[0] + "," + str[1..3] + "," + str[4..6] if str.length < 8
+	return str[0..1] + "," + str[2..4] + "," + str[5..7] if str.length < 9
 end
-
-def separate_comma(number)
-   str = number.to_s
-   str = str.reverse!
-   s_length = str.length
-   result = ""
-   i = 0
-   while i < s_length
-       result = result + str[i..i+2] + ","
-       i = i + 3
-   end
-   return result.reverse[1..result.length]
-end
-=end
 
 # 2. Refactored Solution
 
-def separate_comma(num)
-	str = num.to_s
-	if str.length < 4
-		return str
-	end
-	if str.length < 5
-		return str[0] + "," + str[1..3]
-	end
-	if str.length < 6
-		return str[0..1] + "," + str[2..4]
-	end
-	if str.length < 7
-		return str[0..2] + "," + str[3..5]
-	end
-	if str.length < 8
-		return str[0] + "," + str[1..3] + "," + str[4..6]
-	end
-	if str.length < 9
-		return str[0..1] + "," + str[2..4] + "," + str[5..7]
-	end
+def separate_comma(number)
+   reversed_num = number.to_s.reverse
+   num_length = reversed_num.length
+   result = ""
+   i = 0
+   while i < num_length
+       result = result + reversed_num[i..i+2] + ","
+       i = i + 3
+   end
+   return result.reverse[1..(num_length + num_length/3)]
 end
 
 # 3. Reflection
@@ -105,6 +68,6 @@ Using control flow.
 
 **Do you feel your refactored solution is more readable than your initial solution? Why?**
 
-
+My initial solution was only capable of passing the rspec tests. I was able to solve this quickly, by only using control flow. After recognizing that my solution was not scalable to all numbers, I refactored my solution. My final solution may not be as readable, but it is smaller and more of an elegant solution. It's the type of code that will get me hired. 
 
 =end
