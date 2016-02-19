@@ -63,21 +63,7 @@ student_list = [
 ]
 
 short_list = [
- 'Erica Lloyd',
- 'Marita Deery',
- 'Michael Verthein',
- 'Milorad Felbapov',
- 'Brian Mosley',
- 'Nick Russo',
- 'Noah Schutte',
- 'Oscar Delgadillo',
- 'Ryan Dempsey',
- 'Ryan Wilkins',
- 'Sami Zhang',
- 'Saralis Rivera',
- 'Sean Norton',
- 'Shyh Hwang',
- 'Sydney Rossman-Reich',
+	'Noah',
  'Theo Paul',
  'Tomasz Sok',
  'Wesley El-Amin']
@@ -93,7 +79,7 @@ describe 'make_groups' do
 	
 	context "short_list" do
 		it "returns an array of 4 items" do
-			expect(make_groups(short_list).count == 4).to eq(true)
+			expect(make_groups(short_list).count == 1).to eq(true)
 		end
 
 		it "returns an array of 4 arrays, each array has between 3-5 items" do
@@ -101,4 +87,3 @@ describe 'make_groups' do
 		end 
 	end
 end
-
