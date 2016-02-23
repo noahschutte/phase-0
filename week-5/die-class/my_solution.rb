@@ -57,9 +57,9 @@ class Die
   		raise ArgumentError.new("Number of sides must be at least 1") if sides < 1
   end
 
-  def inspect
-  	"#{@sides}-sided-die"
-  end
+  # def inspect
+  # 	"#{@sides}-sided-die"
+  # end
 
   def roll
   	rand(1..@sides)
