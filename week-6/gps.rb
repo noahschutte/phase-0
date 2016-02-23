@@ -1,10 +1,10 @@
-# Your Names
-# 1) Noah Schutte
-# 2)
+# Your Names #
+# 1) Noah Schutte #
+# 2) #
 
-# We spent [#] hours on this challenge.
+## We spent [#] hours on this challenge. ##
 
-# Bakery Serving Size portion calculator.
+### Bakery Serving Size portion calculator. ###
 
 def serving_size_calc(item_to_make, num_of_ingredients)
   library = {"cookie" => 1, "cake" =>  5, "pie" => 7}
@@ -39,5 +39,12 @@ p serving_size_calc("cookie", 1)
 p serving_size_calc("cookie", 10)
 p serving_size_calc("THIS IS AN ERROR", 5)
 
-#  Reflection
+###  Reflection ###
 
+## What did you learn about making code readable by working on this challenge? ##
+## Did you learn any new methods? What did you learn about them? ##
+## What did you learn about accessing data in hashes? ##
+
+
+
+## What concepts were solidified when working through this challenge? ##
