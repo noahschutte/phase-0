@@ -186,4 +186,4 @@ end
 
 ## What do you feel is most improved in your refactored solution? ##
 
-# Finding the index reference by using the array method, "index", instead of using a placeholder hash. 
+# Finding the index reference by using the array method, "index", instead of using a placeholder hash.  
