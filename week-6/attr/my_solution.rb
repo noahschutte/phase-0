@@ -15,24 +15,20 @@
 	# return greetings from 'hello' method, call for instance variable interpolated in text
 
 class NameData
-	attr_reader :name
+	attr_reader :first_name
 
 	def initialize
-		@name = "Noah"
+		@first_name = "Noah"
 	end
 end
 
 class Greetings
 	def initialize
-		me = NameData.new
-		@name = me.name
-	end
-
-	def inspect
+		@student = NameData.new
 	end
 
 	def hello
-		return "Hello #{@name}! How wonderful to see you today."
+		puts "Hello #{@student.first_name}! How wonderful to see you today."
 	end
 end
 

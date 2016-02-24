@@ -28,7 +28,7 @@ def serving_size_calc(item_to_make, num_of_ingredients)
 
   return "Calculations complete: Make #{num_of_ingredients / serving_size} of #{item_to_make}" if remaining_ingredients == 0 
  
-  return "Calculations complete: Make #{num_of_ingredients / serving_size} of #{item_to_make}, you have #{remaining_ingredients} leftover ingredients."
+  "Calculations complete: Make #{num_of_ingredients / serving_size} of #{item_to_make}, you have #{remaining_ingredients} leftover ingredients."
 end
 
 # p serving_size_calc("pie", 7)
