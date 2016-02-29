@@ -144,8 +144,8 @@ end
 
 ### DRIVER CODE ###
 
-new_card = CreditCard.new(2445678901234569)
-new_card.check_card
+new_card = CreditCard.new(4121383113522276)
+p new_card.check_card
 
 ### Reflection ###
 
