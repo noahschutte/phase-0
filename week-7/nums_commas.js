@@ -35,7 +35,7 @@ function separateComma(number) {
   var number = number.toString().split("").reverse();
   var result = [];
   for (var i = 0; i < number.length; i++) {
-    if (i % 3 === 0 && i - number.length < 0 && i != 0) { 
+    if (i % 3 === 0 && i != 0) {
       result.push(",");
     }
     result.push(number[i]);

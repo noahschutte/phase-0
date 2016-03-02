@@ -27,3 +27,4 @@ describe "separate_comma" do
       expect(separate_comma(random_num(10000000, 99999999))).to match /^\d{2},\d{3},\d{3}$/
    end
 end
+

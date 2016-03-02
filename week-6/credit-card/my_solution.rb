@@ -22,77 +22,77 @@
 # Don't forget to check on initialization for a card length
 # of exactly 16 digits
 
-# class CreditCard
-#   attr_reader :card_number
+class CreditCard
+  attr_reader :card_number
 
-#   def initialize(number)
-#     @card_number = number.to_s.split(//)
-#     unless card_number.length == 16
-#       raise ArgumentError.new ("Card number must be 16 digits")
-#     end
-#     card_number
-#   end
+  def initialize(number)
+    @card_number = number.to_s.split(//)
+    unless card_number.length == 16
+      raise ArgumentError.new ("Card number must be 16 digits")
+    end
+    card_number
+  end
 
-#   def check_card
-#     #double every other number
-#     numbers_to_double =  card_number.values_at(* card_number.each_index.select {|index| index.even?})
-#     numbers_to_double.map! {|i| (i.to_i * 2).to_s}
-#     numbers_stay_same = card_number.values_at(* card_number.each_index.select {|index| index.odd?})
-#     all_digits = numbers_to_double.concat(numbers_stay_same)
-#     all_digits.map! do |index|
-#       if index.length == 2
-#         index.split(//)
-#       else  
-#          index
-#       end
-#     end
-#     all_digits.flatten!
+  def check_card
+    #double every other number
+    numbers_to_double =  card_number.values_at(* card_number.each_index.select {|index| index.even?})
+    numbers_to_double.map! {|i| (i.to_i * 2).to_s}
+    numbers_stay_same = card_number.values_at(* card_number.each_index.select {|index| index.odd?})
+    all_digits = numbers_to_double.concat(numbers_stay_same)
+    all_digits.map! do |index|
+      if index.length == 2
+        index.split(//)
+      else  
+         index
+      end
+    end
+    all_digits.flatten!
     
-#     sum = 0
-#     for x in all_digits
-#       sum += x.to_i
-#     end  
+    sum = 0
+    for x in all_digits
+      sum += x.to_i
+    end  
     
-#     sum
+    sum
     
-#     if sum % 10 == 0
-#       p true
-#       else p false
-#     end
+    if sum % 10 == 0
+      p true
+      else p false
+    end
     
-#     #iterate over concatted array
-#     #if element ==2
-# #       split element
-# #       convert to integers
-# #     add split integers
-# #     convert back to string
-#   end
+    #iterate over concatted array
+    #if element ==2
+#       split element
+#       convert to integers
+#     add split integers
+#     convert back to string
+  end
   
-#       #p numbers_to_double
+      #p numbers_to_double
     
-#     #doubles numbers in the array
-#     #iterate to separate 2 digit numbers
+    #doubles numbers in the array
+    #iterate to separate 2 digit numbers
     
-#     #take the above array, run the double and split method on it
+    #take the above array, run the double and split method on it
     
-#     # p numbers_stay_same = card_number.values_at(* card_number.each_index.select {|index| index.odd?})
+    # p numbers_stay_same = card_number.values_at(* card_number.each_index.select {|index| index.odd?})
     
-#     #combine the two arrays, convert to integers, summ
+    #combine the two arrays, convert to integers, summ
+    # 
+    #p card_number
     
-#     #p card_number
+    #array.map { |i| i*2 }      
     
-#     #array.map { |i| i*2 }      
-    
-#     #split numbers if value >10
-#     #collect all numbers
-#     #sum
-#     #check modulo 10
-#   # def double_numbers
-#   #   card_number.values_at(* card_number.each_index.select {|index| index.even?}) do |odds|
-#   #     odds.map { |i| i*2 } 
-#   # end  
+    #split numbers if value >10
+    #collect all numbers
+    #sum
+    #check modulo 10
+  # def double_numbers
+  #   card_number.values_at(* card_number.each_index.select {|index| index.even?}) do |odds|
+  #     odds.map { |i| i*2 } 
+  # end  
 
-# end
+end
 
 ### Refactored Solution ###
 
