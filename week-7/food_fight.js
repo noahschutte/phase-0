@@ -1,25 +1,3 @@
- // Design Basic Game Solo Challenge
-
-// This is a solo challenge
-
-// Your mission description: 
-// Overall mission: Food Fight
-// Goals: Hit enemy with food.
-// Characters: Hero and Villain.
-// Objects: Hero and Villain.
-// Functions: 
-// 1. Throw mashed potatoes.
-// 2. Throw meatloaf.
-
-// Pseudocode
-// Assign objects names. 
-// Assign objects property of Dirty: 0%. 
-// Make function throw_mashed_potatoes.
-// 
-//
-
-// Initial Code
-
 window.onload = function(e) {
 	var mashedPotatoes = document.getElementById("mashed_potatoes");
 	var meatloaf = document.getElementById("meatloaf");
@@ -51,27 +29,3 @@ window.onload = function(e) {
   text.innerHTML = "A bully just insulted you in front of your friends. You've got a tray full of mashed potatoes and meatloaf. What would you like to do?"
  }
 }
-
-// Refactored Code
-
-
-
-
-
-
-// Reflection
-// What was the most difficult part of this challenge?
-
-// T
-
-// What did you learn about creating objects and functions that interact with one another?
-
-// T
-
-// Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
-
-// T
-
-// How can you access and manipulate properties of objects?
-
-// T
