@@ -13,12 +13,10 @@
 
 // Pseudocode
 // Assign objects names. 
-// Assign objects property of Dirty: 0%. 
+// Make function throw_meatloaf.
 // Make function throw_mashed_potatoes.
-// 
-//
+// Make function reset. 
 
-// Initial Code
 
 window.onload = function(e) {
 	var mashedPotatoes = document.getElementById("mashed_potatoes");
@@ -52,26 +50,19 @@ window.onload = function(e) {
  }
 }
 
-// Refactored Code
-
-
-
-
-
-
 // Reflection
 // What was the most difficult part of this challenge?
 
-// T
+// Enabling the event listeners to correctly run. 
 
 // What did you learn about creating objects and functions that interact with one another?
 
-// T
+// This was my first interactive website, using HTML, CSS, and JavaScript. I am starting to understand how JS can play with a web application. 
 
 // Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
 
-// T
+// Windows.onload makes JS wait to load until the page contents have loaded. 
 
 // How can you access and manipulate properties of objects?
 
-// T
+// Using HTML and CSS.
