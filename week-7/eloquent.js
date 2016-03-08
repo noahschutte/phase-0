@@ -27,11 +27,6 @@ var fizzBuzz = function() {
 
 // fizzBuzz()
 
-// Functions
-// Complete the `minimum` exercise.
-
-
-
 // Data Structures: Objects and Arrays
 // Create an object called "me" that stores your name, age, 3 favorite foods, and a quirk below.
 
@@ -47,7 +42,7 @@ var me = {
 // Introduction (Links to an external site.)
 // Did you learn anything new about JavaScript or programming in general?
 
-// T
+// T6
 
 // Are there any concepts you feel uncomfortable with?
 
