@@ -22,9 +22,11 @@
 9. select region_name 
    from regions 
    where region_name like "%Central%";
-10. select regions.region_name, states.state_name 
-    from regions, states 
+10. select region_name, state_name
+    from regions, states
+    on regions.id = states.region_id
     order by region_id asc;
+
 
 ![Clueless Wardrobe](https://github.com/noahschutte/phase-0/blob/master/week-8/database-intro/Clueless_wardrobe.PNG)
 
