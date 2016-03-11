@@ -1,15 +1,14 @@
 /*
 Gradebook from Names and Scores
 
-I worked on this challenge [by myself, with:]
-This challenge took me [#] hours.
+I worked on this challenge [by myself]
+This challenge took me [1] hours.
 
 You will work with the following two variables.  The first, students, holds the names of four students.
 The second, scores, holds groups of test scores.  The relative positions of elements within the two
 variables match (i.e., 'Joseph' is the first element in students; his scores are the first value in scores.).
 
 Do not alter the students and scores code.
-
 */
 
 var students = ["Joseph", "Susan", "William", "Elizabeth"]
@@ -22,36 +21,36 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Write your code below.
 
-// var gradebook = {
-//   Joseph: {
-//     testScores: scores[0]
-//   },
-//   Susan: {
-//     testScores: scores[1]
-//   },
-//   William: {
-//     testScores: scores[2]
-//   },
-//   Elizabeth: {
-//     testScores: scores[3]
-//   }
-// };
+var gradebook = {
+  Joseph: {
+    testScores: scores[0]
+  },
+  Susan: {
+    testScores: scores[1]
+  },
+  William: {
+    testScores: scores[2]
+  },
+  Elizabeth: {
+    testScores: scores[3]
+  }
+};
 
-// gradebook.addScore = function(name, score) {
-//   gradebook[name].testScores.push(score);
-// };
+gradebook.addScore = function(name, score) {
+  gradebook[name].testScores.push(score);
+};
 
-// gradebook.getAverage = function(name) {
-//   return average(gradebook[name].testScores)
-// };
+gradebook.getAverage = function(name) {
+  return average(gradebook[name].testScores)
+};
 
-// var average = function(testScores) {
-//   var sum = 0;
-//   for (var i = 0; i < testScores.length; i++) {
-//     sum += testScores[i];
-//   };
-//   return sum / testScores.length;
-// };
+var average = function(testScores) {
+  var sum = 0;
+  for (var i = 0; i < testScores.length; i++) {
+    sum += testScores[i];
+  };
+  return sum / testScores.length;
+};
 
 
 // __________________________________________
@@ -93,23 +92,22 @@ var average = function(testScores) {
 };
 
 // __________________________________________
-// Reflect
+// Reflection
 
 // What did you learn about iterating over nested objects in JavaScript?
 
-// The
+// A good practice is to frequently test with console.log to confirm that you are returning the correct object element. 
 
 // Were you able to find useful methods to help you with this?
 
-// The
+// This exercise had little to do with new methods and more to do with carefully writing code that correctly referred to the information that you wanted to access. 
 
 // What concepts were solidified in the process of working through this challenge?
 
-// The
+// Accessing nested objects. 
 
 // __________________________________________
 // Test Code:  Do not alter code below this line.
-
 
 function assert(test, message, test_number) {
   if (!test) {
@@ -119,8 +117,6 @@ function assert(test, message, test_number) {
   console.log(test_number + "true");
   return true;
 }
-
-
 
 assert(
   (gradebook instanceof Object),

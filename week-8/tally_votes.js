@@ -1,7 +1,7 @@
 // Tally Votes in JavaScript Pairing Challenge.
 
-// I worked on this challenge with:
-// This challenge took me [#] hours.
+// I worked on this challenge [by myself]
+// This challenge took me [2] hours.
 
 // These are the votes cast by each student. Do not alter these objects here.
 var votes = {
@@ -71,32 +71,32 @@ var officers = {
 // __________________________________________
 // Initial Solution
 
-// for(var property in object) {}
+for(var property in object) {}
 
-// for (var voter in votes) {
-//   //console.log(voter);  prints the name of each voter
-//   for (var office in votes[voter]) {
-//     //votes[voter][office], within this for loop, will return the name of the person voted for, for each office
-//     //e.g. Alex voted for Bob for president, so the first iteration will return the name Bob.
-//     if (!voteCount[office].hasOwnProperty(votes[voter][office])) {
-//        voteCount[office][votes[voter][office]] = 1;
-//        }
-//     else {
-//       voteCount[office][votes[voter][office]] += 1
-//     } 
-//   }
-// }
+for (var voter in votes) {
+  //console.log(voter);  prints the name of each voter
+  for (var office in votes[voter]) {
+    //votes[voter][office], within this for loop, will return the name of the person voted for, for each office
+    //e.g. Alex voted for Bob for president, so the first iteration will return the name Bob.
+    if (!voteCount[office].hasOwnProperty(votes[voter][office])) {
+       voteCount[office][votes[voter][office]] = 1;
+       }
+    else {
+      voteCount[office][votes[voter][office]] += 1
+    } 
+  }
+}
 
-// for (var office in voteCount) {
-//   var officer = "Bob";
-//   var counter = 0;
-//   for (var candidate in voteCount[office]) {
-//     if (voteCount[office][candidate] > voteCount[office][officer]) {
-//       officer = candidate;
-//     }
-//   }
-//   officers[office] = officer;
-// }
+for (var office in voteCount) {
+  var officer = "Bob";
+  var counter = 0;
+  for (var candidate in voteCount[office]) {
+    if (voteCount[office][candidate] > voteCount[office][officer]) {
+      officer = candidate;
+    }
+  }
+  officers[office] = officer;
+}
 // __________________________________________
 // Refactored Solution
 
@@ -132,15 +132,15 @@ console.log()
 
 // What did you learn about adding functions to objects?
   
-// T
+// Nested for loops for a nested object is extremely tricky to understand without careful forethought. 
 
 // How did you iterate over nested arrays in JavaScript?
 
-// T
+// With nested for loops. 
 
 // Were there any new methods you were able to incorporate? If so, what were they and how did they work?
 
-// T
+// No new methods. The challenge was simply to replace content, but identifying the correct content was very tricky to get the code to return the data you were interested in. 
 
 // __________________________________________
 // Test Code:  Do not alter code below this line.
