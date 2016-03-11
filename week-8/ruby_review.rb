@@ -92,6 +92,7 @@ def dr_evils_cipher(coded_message)
 end
 
 # Driver Test Code:
+p dr_evils_cipher("m^aerx%e&gsoi!")
 p dr_evils_cipher("m^aerx%e&gsoi!") == "i want a coke!" #This is driver test code and should print true
 # Find out what Dr. Evil is saying below and turn it into driver test code as well. Driver test code statements should always return "true."
 p dr_evils_cipher("syv%ievpc#exxiqtxw&ex^e$xvegxsv#fieq#airx%xlvsykl$wizivep#tvitevexmsrw.#tvitevexmsrw#e*xlvsykl#k&aivi%e@gsqtpixi&jempyvi.
