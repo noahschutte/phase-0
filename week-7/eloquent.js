@@ -9,7 +9,7 @@ var age = 27;
 
 age = 28;
 
-// console.log(age);
+console.log(age);
 
 // Complete one of the exercises: Looping a Triangle, FizzBuzz, or Chess Board
 
@@ -25,7 +25,7 @@ var fizzBuzz = function() {
 			console.log(i);
 }
 
-// fizzBuzz()
+fizzBuzz()
 
 // Data Structures: Objects and Arrays
 // Create an object called "me" that stores your name, age, 3 favorite foods, and a quirk below.
@@ -37,108 +37,113 @@ var me = {
 	quirk: "Makes funny faces for pictures."
 };
 
-// console.log(me)
+console.log(me)
 
-// Introduction (Links to an external site.)
+// Introduction
 // Did you learn anything new about JavaScript or programming in general?
 
-// T6
+// I really enjoyed the landscape of communicating with computers that Haverbeke painted for the reader. It's interesting to think of programming as a tool for humans to automate simple tasks that would normally take a long amount of time to complete. 
 
 // Are there any concepts you feel uncomfortable with?
 
-// T
+// Not from the introduction.
 
-// Ch. 1: Values, Types, and Operators (Links to an external site.)
+// Ch. 1: Values, Types, and Operators 
 // Identify two similarities and two differences between JavaScript and Ruby syntax with regard to numbers, arithmetic, strings, booleans, and various operators.
 
-// T
+// Ruby and JS can both be used to manipulate numbers the way a calculator will use common operators such as addition and multiplication. I noticed that JS uses "==" differently. It uses type conversion. So you may need to be careful when using "==". Otherwise, "===" can be used in JS for a direct comparison of values. 
 
-// Ch. 2: Program Structure (Links to an external site.)
+// Ch. 2: Program Structure
 // What is an expression?
 
-// T
+// An expression is a fragment of code that produces a value.
 
 // What is the purpose of semicolons in JavaScript? Are they always required?
 
-// T
+// A semicolon is not always required, but without a more nuanced understanding of them, I will continue to use a semicolon after every expression. 
 
 // What causes a variable to return undefined?
 
-// T
+// When you define a variable without giving it a value. 
 
 // Write your own variable and do something to it in the eloquent.js file.
 
-// T
+var one = 1;
+one + one;
 
 // What does console.log do and when would you use it? What Ruby method(s) is this similar to?
 
-// T
+// console.log prints something to the console. It is similar to: p, puts, or print in Ruby.
 
-// Write a short program that asks for a user to input their favorite food. After they hit return, have the program respond with "Hey! That's my favorite too!" (You will probably need to run this in the Chrome console (Links to an external site.) rather than node since node does not support prompt or alert). Paste your program into the eloquent.js file.
+// Write a short program that asks for a user to input their favorite food. After they hit return, have the program respond with "Hey! That's my favorite too!" (You will probably need to run this in the Chrome console rather than node since node does not support prompt or alert). Paste your program into the eloquent.js file.
 
-// T
+// console.log("What is your favorite food?")
+prompt("What is your favorite food?");
+console.log("Hey! That's my favorite food too!")
 
 // Describe while and for loops
 
-// T
+// While loops will continue to run as long as a set condition is met. For loops define the constraints of the condition that allow the function to continue to run.
 
 // What other similarities or differences between Ruby and JavaScript did you notice in this section?
 
-// T
+// Defining a variable requires the use of "var".
 
 // Complete at least one of the exercises (Looping a Triangle, FizzBuzz, of Chess Board) in the eloquent.js file.
 
-// T
+// Programmers prefer camelCase over the use of underscores. 
 
-// Ch. 3: Functions (Links to an external site.) (Skip the sections on closure and recursion)
-
-// T
+// Ch. 3: Functions (Skip the sections on closure and recursion)
 
 // What are the differences between local and global variables in JavaScript?
 
-// T
+// Local variables are defined within a function. Global variables are defined outside of a function.
 
 // When should you use functions?
 
-// T
+// Anytime that you want to add a new variable that happens to have a set of statements. 
 
 // What is a function declaration?
 
-// T
+// "var doStuff = function(){};"
 
 // Complete the minimum exercise in the eloquent.js file.
 
-// T
+var a = 2
+var b = 3
+var z = Math.min(a,b);
+console.log(z)
 
-// Ch. 4: Data Structures: Objects and Arrays (Links to an external site.) 
-
-// T
-
-// Skip the sections on the Lycanthrope's log, Computing Correlations, and sections from Further Arrayology to the Global Object, but read the chapter summary.
-
-// T
+// Ch. 4: Data Structures: Objects and Arrays
 
 // What is the difference between using a dot and a bracket to look up a property? Ex. array.max vs array["max"]
 
-// T
+// None.
 
 // Create an object called me that stores your name, age, three favorite foods, and a quirk in your eloquent.js file.
 
-// T
+var me = {
+	name: "Noah",
+	age: 27,
+	favSandwich: "Club",
+	favPizza: "BBQ Chicken",
+	favPie: "Pecan"
+	quirk: "Likes Dogs"
+};
 
 // What is a JavaScript object with a name and value property similar to in Ruby?
 
-// T
+// A Hash.
 
 // Reflection
 // What are the biggest similarities and differences between JavaScript and Ruby?
 
-// T
+// JS does not have a simple array. 
 
 // Was some of your Ruby knowledge solidified by learning another language? If so, which concepts?
 
-// T
+// That the logic of programming is seamless. It's merely the syntax that differs. 
 
 // How do you feel about diving into JavaScript after reading these chapters?
 
-// T
+// Fairly confident. 
