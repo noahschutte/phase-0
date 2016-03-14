@@ -3,7 +3,7 @@
 # steps:
  # 1. Split the string into different elements into Hash
  # 2. Set default quantity = 1
- # 3. Print the list to the console, yes we could use our print method
+ # 3. Print the list to the console
 # output: Hash
 
 # Method to add an item to a list
