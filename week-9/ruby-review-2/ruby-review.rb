@@ -151,12 +151,12 @@ my_playlist.display
 # Reflection
 # What concepts did you review in this challenge?
 
-# T 
+# The creation of classes. 
 
 # What is still confusing to you about Ruby?
 
-# T 
+# Learning some best practices for some topics, including refactoring. 
 
 # What are you going to study to get more prepared for Phase 1?
 
-# T 
+# Practice more types of problems in Ruby. 
