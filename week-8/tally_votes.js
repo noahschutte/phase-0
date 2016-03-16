@@ -71,32 +71,32 @@ var officers = {
 // __________________________________________
 // Initial Solution
 
-for(var property in object) {}
+// for(var property in object) {}
 
-for (var voter in votes) {
-  //console.log(voter);  prints the name of each voter
-  for (var office in votes[voter]) {
-    //votes[voter][office], within this for loop, will return the name of the person voted for, for each office
-    //e.g. Alex voted for Bob for president, so the first iteration will return the name Bob.
-    if (!voteCount[office].hasOwnProperty(votes[voter][office])) {
-       voteCount[office][votes[voter][office]] = 1;
-       }
-    else {
-      voteCount[office][votes[voter][office]] += 1
-    } 
-  }
-}
+// for (var voter in votes) {
+//   //console.log(voter);  prints the name of each voter
+//   for (var office in votes[voter]) {
+//     //votes[voter][office], within this for loop, will return the name of the person voted for, for each office
+//     //e.g. Alex voted for Bob for president, so the first iteration will return the name Bob.
+//     if (!voteCount[office].hasOwnProperty(votes[voter][office])) {
+//        voteCount[office][votes[voter][office]] = 1;
+//        }
+//     else {
+//       voteCount[office][votes[voter][office]] += 1
+//     } 
+//   }
+// }
 
-for (var office in voteCount) {
-  var officer = "Bob";
-  var counter = 0;
-  for (var candidate in voteCount[office]) {
-    if (voteCount[office][candidate] > voteCount[office][officer]) {
-      officer = candidate;
-    }
-  }
-  officers[office] = officer;
-}
+// for (var office in voteCount) {
+//   var officer = "Bob";
+//   var counter = 0;
+//   for (var candidate in voteCount[office]) {
+//     if (voteCount[office][candidate] > voteCount[office][officer]) {
+//       officer = candidate;
+//     }
+//   }
+//   officers[office] = officer;
+// }
 // __________________________________________
 // Refactored Solution
 
@@ -124,8 +124,6 @@ for (var office in voteCount) {
   }
   officers[office] = officer;
 }
-
-console.log()
 
 // __________________________________________
 // Reflection
