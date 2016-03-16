@@ -80,9 +80,57 @@ function updateQty(list, qty, item) {
 	viewList(list);
 };
 
+// Refactored Code //
+
+function GroceryList(items) {
+  items = items.split(" ")
+  this.list = {};
+  for (var i = 0; i < items.length; i++) {
+    this.list[items[i]] = 1;
+  };
+  
+  this.viewList = function() {
+    console.log("Your grocery list includes:");
+    for (var item in this.list) {
+      console.log(this.list[item] + " " + item);
+    };
+  };
+  
+  this.addItem = function(items) {
+    var newItems = items.split(" ");
+    for (var newItem in newItems) {
+      for (var item in this.list) {
+        if (item !== newItems[newItem]) {
+          this.list[newItems[newItem]] = 1;
+        };
+      };
+    };
+  };
+
+  this.removeItem = function(items) {
+    var removeItems = items.split(" ");
+    for (var removeItem in removeItems) {
+      for (var item in this.list) {
+        if (item == removeItems[removeItem]) {
+          delete this.list[removeItems[removeItem]];
+        };
+      };
+    };
+  };
+  
+};
+
+GroceryList.prototype.updateQty = function(qty, item) { 
+  for (var items in this.list) {
+    if (item == items) {
+      this.list[items] = qty;
+    };
+  };
+};
+
 // DRIVER CODE //
 var myList = new GroceryList("butter milk bread eggs");
-addItem(myList, "pear apples");
+addItem(myList, "pear");
 removeItem(myList, "milk bread");
 updateQty(myList, 3, "eggs");
 viewList(myList);
